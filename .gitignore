@@ -1,0 +1,26 @@
+# Ignore everything in the data folder
+data/*
+
+# Do not ignore the data directory itself
+!data/
+
+# Ignore the environment
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore the keys
+keys/*
